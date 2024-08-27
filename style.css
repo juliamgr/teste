@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 
 .container{
@@ -19,11 +19,14 @@ header{
     grid-row-end: 1;
     grid-column-end: 4;
     background-color: cadetblue;
+    background-image: url(https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg);
+    background-size: 100%;
+    background-position: 0 -503px;
 }
 
 main{
-    background-color: blue;
-    height: 800px;
+    background-color: gray;
+    height: 623px;
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 2;
@@ -38,28 +41,59 @@ footer{
 }
 
 .left-footer{
-    height: 300px;
+    height: 430px;
     grid-row-start: 3;
     grid-column-start: 1;
     grid-row-end: 4;
     grid-column-end: 2;
-    background-color: aqua;
+    background-color: rgb(66, 66, 66);
 }
 
 .center-footer{
-    height: 300px;
+    height: 430px;
     grid-row-start: 3;
     grid-column-start: 2;
     grid-row-end: 4;
     grid-column-end: 3;
-    background-color: blueviolet;
+    background-color: rgb(108, 108, 109);
 }
 
 .right-footer{
-    height: 300px;
+    height: 430px;
     grid-row-start: 3;
     grid-column-start: 3;
     grid-row-end: 4;
     grid-column-end: 4;
-    background-color: chocolate;
+    background-color: rgb(66, 66, 66);
+}
+
+/*texto*/
+h1{
+    margin-left: 75px;
+    margin-top: 38px;
+    font-size: 45px;
+    color: white;
+}
+
+h2{
+    font-size: 35px;
+    margin-left: 37px;
+}
+
+.p1{
+    font-size: 20px;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+
+h3{
+    margin-left: 23px;
+}
+
+.p2{
+    margin-left: 10px;
+}
+
+.p3{
+    margin-left: 5px;
 }
